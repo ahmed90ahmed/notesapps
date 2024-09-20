@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ملاحظاتي</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ملاحظاتي</h1>
+        <div class="input-container">
+            <input type="text" id="noteInput" placeholder="أضف ملاحظة جديدة">
+            <button onclick="addNote()">+</button>
+        </div>
+        <div class="note-sections">
+            <div class="section">
+                <h2>الملاحظات</h2>
+                <ul id="noteList"></ul>
+            </div>
+            <div class="section">
+                <h2>المنجزة</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>صنع بواسطة App X</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
